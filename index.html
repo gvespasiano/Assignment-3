@@ -6,6 +6,7 @@
 <style>
 	body{
 		font-family:sans-serif;
+		width:1000px;
 	}
 	h1{
 		text-align:center;
@@ -14,38 +15,41 @@
 		text-align:center;
 	}
 	div{
-		width:20%;
+		width:300px;
 		float:left;
 		padding-top:60px;
 	}
+
 </style>
 
 <body>
 	<h1>State Capital Flashcards</h1>
-	<h3>Click the image of the state to reveal their captials!</h3>
+	<h3>Hover over the image of the state to reveal their captials!</h3>
+	<section id="main">
 	<div>
-		<img onclick="alert('Montgomery');" src="alabama.jpeg">
-		<h3>Alabama</h3>
+		<img onmouseover="alert('Montgomery');" src="alabama.jpeg">
+		<h2>Alabama</h2>
 	</div>
 	<div>
-		<img onclick="alert('Juneau');" src="alaska.jpeg">
-		<h3>Alaska</h3>
+		<img onmouseover="alert('Juneau');" src="alaska.jpeg">
+		<h2>Alaska</h2>
 	</div>
 	<div>
-		<img onclick="alert('Phoenix');" src="arizona.jpeg">
-		<h3>Arizona</h3>
+		<img onmouseover="alert('Phoenix');" src="arizona.jpeg">
+		<h2>Arizona</h2>
 	</div>
 	<div>
-		<img onclick="alert('Little Rock');" src="arkansas.jpeg">
-		<h3>Arkansas</h3>
+		<img onmouseover="alert('Little Rock');" src="arkansas.jpeg">
+		<h2>Arkansas</h2>
 	</div>
 	<div>
-		<img onclick="alert('Sacramento');" src="california.jpeg">
-		<h3>California</h3>
+		<img onmouseover="alert('Sacramento');" src="california.jpeg">
+		<h2>California</h2>
 	</div>
 	<div>
-		<img onclick="alert('Denver');" src="colorado.jpg">
-		<h3>Colorado</h3>
-	</div>
+		<img onmouseover="alert('Denver');" src="colorado.jpg">
+		<h2>Colorado</h2>
+	</section>
+</div>
 </body>
 </html>
